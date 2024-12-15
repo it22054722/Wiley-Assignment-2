@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('TC_A1: Verify registration with valid inputs', async ({ page }) => {
   // Navigate to the registration page
-  await page.goto('https://example.com/register');
+  await page.goto('https://wiley.scienceconnect.io/register');
 
   // Fill out the registration form
   await page.fill('input[name="email"]', 'Manthi12@gmail.com');
